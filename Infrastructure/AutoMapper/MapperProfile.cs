@@ -20,6 +20,7 @@ namespace Infrastructure.AutoMapper
                     .ForMember(dest => dest.ProductTypeName, opt => opt.MapFrom(src => src.ProductType.Name))
                     .ForMember(dest => dest.ProductBrandName, opt => opt.MapFrom(src => src.ProductBrand.Name))
                     .ReverseMap();
+
             }
         
     }
