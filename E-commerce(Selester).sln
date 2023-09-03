@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-commerce(Selester)APi", "E-commerce(Selester)APi\E-commerce(Selester)APi.csproj", "{517FE3FC-9690-4966-846E-2388C9E1CAB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-commerce APi", "E-commerce(Selester)APi\E-commerce APi.csproj", "{517FE3FC-9690-4966-846E-2388C9E1CAB1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domian", "Domin\Domian.csproj", "{954F030C-749C-49D2-8879-B5E6F5178700}"
 EndProject
