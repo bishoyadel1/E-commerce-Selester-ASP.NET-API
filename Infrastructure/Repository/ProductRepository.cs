@@ -10,7 +10,7 @@ namespace Infrastructure.Repository
 
         public ProductRepository(SelesterDbContext context) : base(context) { _context = context; }
         
-
+        
         public async Task<T> GetProductByIdAsync(int id)
         {
             return _context.Set<T>().Find(id);

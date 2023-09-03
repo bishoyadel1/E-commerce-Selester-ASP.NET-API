@@ -18,20 +18,22 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Domin.Entities.Identity;
+using Infrastructure.IRepository;
 
-namespace Infrastructure.IRepository.ServicesRepository
+namespace Infrastructure.Services
 {
-    public class AccountRepository : IServicesAccount<AppUserModel>
+    public class AccountServices : IServicesAccount<AppUserModel>
     {
         private readonly SelesterDbContext _context;
         private readonly RoleManager<IdentityRole> _identityRoles;
         private readonly UserManager<AppUserModel> _identityUser;
         private readonly SignInManager<AppUserModel> _signInManager;
         private readonly JWT _jwt;
-        public AccountRepository(RoleManager<IdentityRole> identityRoles, UserManager<AppUserModel> identityUser, SelesterDbContext context , SignInManager<AppUserModel> signInManager, IOptions<JWT> jwt) { 
-        _context= context;
-            _identityRoles= identityRoles;
-            _identityUser= identityUser;
+        public AccountServices(RoleManager<IdentityRole> identityRoles, UserManager<AppUserModel> identityUser, SelesterDbContext context, SignInManager<AppUserModel> signInManager, IOptions<JWT> jwt)
+        {
+            _context = context;
+            _identityRoles = identityRoles;
+            _identityUser = identityUser;
             _signInManager = signInManager;
             _jwt = jwt.Value;
         }
@@ -175,7 +177,7 @@ namespace Infrastructure.IRepository.ServicesRepository
             }
         }
 
-      
+
     }
 
 }

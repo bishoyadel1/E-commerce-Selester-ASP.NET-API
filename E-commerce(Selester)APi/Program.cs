@@ -4,14 +4,16 @@ using Infrastructue.Interfaces;
 using Infrastructure;
 using Infrastructure.AutoMapper;
 using Infrastructure.Helper;
+using Infrastructure.Interfaces;
 using Infrastructure.IRepository;
-using Infrastructure.IRepository.ServicesRepository;
 using Infrastructure.Repository;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using StackExchange.Redis;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,6 +39,16 @@ builder.Services.AddDbContext<SelesterDbContext>(options =>
 
 builder.Services.AddIdentity<AppUserModel, IdentityRole>().AddEntityFrameworkStores<SelesterDbContext>()
     .AddDefaultTokenProviders(); ;
+
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(c =>
+{
+    var configuration = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString("Redis"), true);
+  
+    return ConnectionMultiplexer.Connect(configuration);
+});
+
+
 builder.Services.Configure<IdentityOptions>(option =>
 {
     option.Password.RequireNonAlphanumeric = false;
@@ -66,8 +78,10 @@ builder.Services.AddAuthentication(options =>
                     };
                 });
 builder.Services.AddAutoMapper(typeof(MapperProfile));
-builder.Services.AddScoped<IServicesAccount<AppUserModel>, AccountRepository>();
+builder.Services.AddScoped<IServicesAccount<AppUserModel>, AccountServices>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 builder.Services.Configure<DataProtectionTokenProviderOptions>(options =>
 {
     options.TokenLifespan = TimeSpan.FromHours(2);
@@ -83,10 +97,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseCors(op => op.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

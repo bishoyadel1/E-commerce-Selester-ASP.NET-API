@@ -8,13 +8,15 @@ namespace Infrastructure.Helper
 {
     public class Pagination <T> where T : class
     {
-        public Pagination(int pageindex,int pagesize, IReadOnlyList<T> data)
-        {
+        public Pagination(int totalCount,int pageindex,int pagesize, IReadOnlyList<T> data)
+        { 
+            TotalCount = totalCount;
             Pageindex = pageindex;
             Pagesize = pagesize;
             Data = data;
         }
 
+        public int TotalCount { get; }
         public int Pageindex { get; }
         public int Pagesize { get; }
         public IReadOnlyList<T> Data { get; }

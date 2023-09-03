@@ -26,31 +26,45 @@ namespace E_commerce_Selester_APi.Controllers
       
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductDto>>> Get()
+        public async Task<ActionResult<ProductDto>> Get([FromQuery] int id)
         {
-            var spce = new ProductWithTypeAndBrand();
-            var options = new JsonSerializerOptions
-            {
-                ReferenceHandler = ReferenceHandler.Preserve,
-                MaxDepth = 32 // Set the maximum allowed depth as needed
-            };
-            var data = await _unitOfWork.Product.GetEntityWithSpec(spce);
-            var model = Mapper.Map<Product, ProductDto>(data);
-
-            var json = JsonSerializer.Serialize(model, options);
-            return Content(json, "application/json");
+            var spec = new ProductWithTypeAndBrand(id);
+            var product = await _unitOfWork.Product.GetEntityWithSpec(spec);
+            return Ok(Mapper.Map<ProductDto>(product));
+       
         }
-        [HttpGet("GetProduct")]
-        public async Task<ActionResult<Pagination<ProductDto>>> GetProduct([FromQuery] ProductParam param)
+        [HttpGet("GetProducts")]
+        public async Task<ActionResult<Pagination<ProductDto>>> GetProducts([FromQuery] ProductParam param)
         {
             var spac = new ProductWithTypeAndBrand(param);
             var model = await _unitOfWork.Product.ListAsync(spac);
             var data  = Mapper.Map <IReadOnlyList<ProductDto>>(model);
-            return Ok(new Pagination<ProductDto>(param.PageIndex, param.MaxPageSize, data));
+            var count = await _unitOfWork.Product.CountAsync(new ProductWithTypeAndBrandCount(param));
+     
+            return Ok(new Pagination<ProductDto>(count,param.PageIndex, param.MaxPageSize, data));
             
         }
 
-    internal record struct NewStruct(object Item1, object Item2)
+        [HttpGet("Brands")]
+        public async Task<ActionResult<IReadOnlyList<BrandDto>>> Brands()
+        {
+
+            var model = await _unitOfWork.GenericRepository<ProductBrand>().ListAllAsync();
+            var BrandDto = Mapper.Map<IReadOnlyList<BrandDto>>(model);
+            return Ok(BrandDto);
+
+        }
+        [HttpGet("ProductType")]
+        public async Task<ActionResult<IReadOnlyList<TypeDto>>> ProductType()
+        {
+
+            var model = await _unitOfWork.GenericRepository<ProductType>().ListAllAsync();
+            var BrandDto = Mapper.Map<IReadOnlyList<TypeDto>>(model);
+            return Ok(BrandDto);
+
+        }
+
+        internal record struct NewStruct(object Item1, object Item2)
     {
         public static implicit operator (object, object)(NewStruct value)
         {

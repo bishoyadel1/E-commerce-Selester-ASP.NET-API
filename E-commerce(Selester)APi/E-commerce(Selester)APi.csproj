@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -22,12 +22,38 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\products\boot-ang1.png" />
+    <None Include="wwwroot\images\products\boot-ang2.png" />
+    <None Include="wwwroot\images\products\boot-core1.png" />
+    <None Include="wwwroot\images\products\boot-core2.png" />
+    <None Include="wwwroot\images\products\boot-redis1.png" />
+    <None Include="wwwroot\images\products\glove-code1.png" />
+    <None Include="wwwroot\images\products\glove-code2.png" />
+    <None Include="wwwroot\images\products\glove-react1.png" />
+    <None Include="wwwroot\images\products\glove-react2.png" />
+    <None Include="wwwroot\images\products\hat-core1.png" />
+    <None Include="wwwroot\images\products\hat-react1.png" />
+    <None Include="wwwroot\images\products\hat-react2.png" />
+    <None Include="wwwroot\images\products\sb-ang1.png" />
+    <None Include="wwwroot\images\products\sb-ang2.png" />
+    <None Include="wwwroot\images\products\sb-core1.png" />
+    <None Include="wwwroot\images\products\sb-core2.png" />
+    <None Include="wwwroot\images\products\sb-react1.png" />
+    <None Include="wwwroot\images\products\sb-ts1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
 
 </Project>

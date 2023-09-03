@@ -9,22 +9,17 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Specifications
 {
-    public class ProductWithTypeAndBrand : BaseSpecification<Product>
+    public class ProductWithTypeAndBrandCount : BaseSpecification<Product>
     {
-        public ProductWithTypeAndBrand() {
+        public ProductWithTypeAndBrandCount() {
             AddInclude(x => x.ProductType);
             AddInclude(x => x.ProductBrand);
         }
-        public ProductWithTypeAndBrand(int id) : base(x=>x.Id==id)
+
+        public ProductWithTypeAndBrandCount(ProductParam param) : base(x => (string.IsNullOrEmpty(param.Search) || x.Name.ToLower().Contains(param.Search.ToLower()))&&(!param.TypeId.HasValue|| x.ProductTypeId==param.TypeId)&&(!param.BrandtId.HasValue || x.ProductBrandId==param.BrandtId))
         {
             AddInclude(x => x.ProductType);
             AddInclude(x => x.ProductBrand);
-        }
-        public ProductWithTypeAndBrand(ProductParam param) : base(x => (string.IsNullOrEmpty(param.Search) || x.Name.ToLower().Contains(param.Search.ToLower()))&&(!param.TypeId.HasValue|| x.ProductTypeId==param.TypeId)&&(!param.BrandtId.HasValue || x.ProductBrandId==param.BrandtId))
-        {
-            AddInclude(x => x.ProductType);
-            AddInclude(x => x.ProductBrand);
-            ApplyPaging(param.MaxPageSize * (param.PageIndex - 1), param.MaxPageSize);
 
             if (!string.IsNullOrEmpty(param.Sort))
             {

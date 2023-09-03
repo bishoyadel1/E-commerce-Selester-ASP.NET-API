@@ -3,6 +3,7 @@ using Infrastructue.Interfaces;
 using Core.Specifications;
 
 using Microsoft.EntityFrameworkCore;
+using Infrastructure.Specifications;
 
 namespace Infrastructure.Repository
 {
@@ -14,6 +15,12 @@ namespace Infrastructure.Repository
         public void Add(T entity)
         {
             _context.Set<T>().Add(entity);
+        }
+
+        public async Task<T> AddAsync(T Entity)
+        {
+            await _context.Set<T>().AddAsync(Entity);
+            return Entity;
         }
 
         public async Task<int> CountAsync(ISpecification<T> spec)

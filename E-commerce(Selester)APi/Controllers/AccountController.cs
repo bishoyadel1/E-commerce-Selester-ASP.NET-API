@@ -1,21 +1,10 @@
-﻿using AutoMapper;
-using Domin.Entities;
-using Infrastructure;
-using Infrastructure.Helper;
+﻿using Infrastructure.Helper;
 using Infrastructure.IRepository;
-using Infrastructure.IRepository.ServicesRepository;
 using Infrastructure.DTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Expressions;
-using System;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Security.Policy;
-using System.Text;
 using Domin.Entities.Identity;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860

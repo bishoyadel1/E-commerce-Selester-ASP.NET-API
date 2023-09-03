@@ -1,5 +1,4 @@
-﻿
-using Domin.Entities;
+﻿using Domian.Entities.OrderAggregate;
 using Domin.Entities;
 using Domin.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
@@ -22,7 +21,22 @@ namespace Infrastructure
         public DbSet<Product>  Products { get; set; }
         public DbSet<ProductBrand> ProductBrands { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }
-      
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<DeleviryMethod> DeleviryMethods { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<Order>().OwnsOne(op => op.shippingAdderss, i => i.WithOwner());
+            builder.Entity<Order>()
+                 .Property(t => t.OrderStatus)
+                                   .HasConversion(
+                                            v => v.ToString(),
+                                            v => (OrderStatus)Enum.Parse(typeof(OrderStatus), v));
+            builder.Entity<Order>().HasMany(c => c.OrderItems).WithOne();
+        }
+               
 
 
     }
