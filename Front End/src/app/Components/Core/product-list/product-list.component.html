@@ -1,0 +1,276 @@
+<div class="container-fluid row mt-2 mb-2 " style="min-height: 95vh;">
+
+  <! –– main div class="container-fluid row mt-4 mb-4 " style="min-height: 95vh;" ––>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+      <!-- ASIDE -->
+      <div id="aside" class="col-md-1">
+        <!-- aside Widget -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form [formGroup]="fg">
+
+          <div class="aside">
+            <h3 class="aside-title" style="color: rgb(8, 8, 81);"> Categories</h3>
+            <div class="checkbox-filter">
+              <div *ngFor="let category of categories" class="input-checkbox">
+                <input type="radio" [id]="'category-' + category.id" name="category" formControlName="category"
+                  [value]="category.id" (change)="onCategoryChange(category.id.toString())">
+                <label [for]="'category-' + category.id" style="font-size: large;">
+                  <span></span>
+                  {{ category.name }}
+                  <small></small>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- /aside Widget -->
+          <!-- aside Widget -->
+          <div class="aside">
+            <h3 class="aside-title" style="color: rgb(8, 8, 81);">Brand</h3>
+            <div class="checkbox-filter">
+              <div *ngFor="let brand of brands" class="input-checkbox">
+                <input type="radio" [id]="'brand-' + brand.id" name="brand" formControlName="brand" [value]="brand.id"
+                  (change)="onBrandChange(brand.id.toString())">
+                <label [for]="'brand-' + brand.id" style="font-size: large;">
+                  <span></span>
+                  {{ brand.name }}
+                  <small></small>
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+        </form>
+
+
+
+        <!-- /aside Widget -->
+
+
+      </div>
+      <!-- /ASIDE -->
+
+      <!-- STORE -->
+      <div id="store" class="col-md-11">
+        <!-- store top filter -->
+        <div class="store-filter clearfix">
+          <div class="store-sort">
+            <div class="product-view">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-20">
+                    <div class="row">
+
+
+
+
+
+                      <div class="col-md-20">
+                        <div class="product-view-top">
+                          <form [formGroup]="fg">
+                            <div class="row">
+
+
+                              <div class="col-md-5 rounded">
+                                <div class="input-group rounded">
+                                  <label for="search" class="form-label rounded" aria-label="Search"
+                                    aria-describedby="search-addon"
+                                    style="font-size: 20px; font-weight: bolder; color:rgb(8, 8, 81) ;">Search</label>
+                                  <input type="text" id="search" class="form-control" formControlName="search"
+                                    placeholder="You can search for what you want here"
+                                    style="height: 45px; font-size: large;">
+
+                                </div>
+
+                              </div>
+
+
+                              <div class="col-md-3">
+                                <div class="product-sort">
+                                  <div class="dropdown rounded">
+                                    <label for="sort" class="form-label"
+                                      style="font-size: 20px; font-weight: bolder;color:rgb(8, 8, 81) ;">Sort</label>
+
+
+                                    <select class="form-select rounded" id="sort" formControlName="sort"
+                                      style="height: 45px;">
+                                      <option selected value="">Name</option>
+
+
+                                      <option value="priceAsc">Price Ascending</option>
+                                      <option value="priceDesc">Price Descending</option>
+                                    </select>
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+
+
+
+
+                              <div class="col-md-3">
+                                <div class="product-con">
+                                  <div class="dropdown rounded ">
+                                    <label for="condition" class="form-label"
+                                      style="font-size: 20px; font-weight: bolder; color:rgb(8, 8, 81) ;">Condition</label>
+                                    <select class="form-select rounded" id="condition" formControlName="condition"
+                                      style="height: 45px;">
+                                      <option selected value="">All</option>
+                                      <option value="new">New</option>
+                                      <option value="used">Used</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-1">
+                                <div class="product-price-range">
+                                  <div class="dropdown">
+                                    <label for="apply" style="height: 35px;" class="form-label">'</label>
+                                    <button class="btn btn-dark w-100 rounded"
+                                      (click)="applyFilter($event)">Apply</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- /store top filter -->
+
+        <!-- store products -->
+        <div class="row">
+          <div class="container-fluid  d-flex flex-wrap p-3  justify-content-center align-items-start">
+            <! –– div
+              class="container-fluid col-sm-12 col-lg-9 d-flex flex-wrap p-3  justify-content-end align-items-start" ––>
+              <!-- Cards -->
+              <div id="card" class="card m-2" style="width: 23rem; position: relative; cursor: pointer;"
+                *ngFor="let item of products">
+
+                <div id="img" class="card-img-top text-center">
+                  <img src="{{item.images[0] ? item.images[0] : 'assets/Images/NotFound.png'}}" class="img-fluid"
+                    alt="..." [routerLink]="['details', item.id]">
+                </div>
+
+                <button (click)="AddToFavorite(item.id)" class="smalled s1 btn btn-dark m-1"
+                  style="position: absolute; top:1px; right: 1px; font-size: 10px;"><i class=" bi bi-heart-fill"
+                    id="heart"></i></button>
+
+                <button (click)="AddToWithList(item.id)" class="smalled s2 btn btn-dark m-1"
+                  style="position: absolute; top:40px; right:1px; font-size: 10px;"><i class=" bi bi-list-ol"
+                    id="star"></i></button>
+
+                <div class="card-body" [routerLink]="['details',item.id]"
+                  style="cursor: pointer; max-height: 170px; min-height: 170px; overflow: auto;">
+                  <h5 class="card-title">{{item.name}}</h5>
+                  <p class="card-text">{{item.description}}</p>
+                  <p class="card-text">{{item.price}} LE</p>
+                </div>
+
+                <button (click)="AddToCart(item.id)" [value]="item.id" class="btn btn-dark m-3"
+                  style="border-radius: 5px;"><i class="bi bi-cart-fill"></i>
+                  Add To Cart</button>
+
+              </div>
+
+          </div>
+
+
+        </div>
+        <!-- /store products -->
+
+        <!-- store bottom filter -->
+
+        <!-- /store bottom filter -->
+      </div>
+      <!-- /STORE -->
+    </div>
+
+
+
+
+    <!-- Products Container -->
+    <div class="container-fluid  d-flex flex-wrap p-3  justify-content-center align-items-start">
+      <! –– div class="container-fluid col-sm-12 col-lg-9 d-flex flex-wrap p-3  justify-content-end align-items-start"
+        ––>
+        <!-- Cards -->
+        <div hidden id="card" class="card m-2" style="width: 20rem; position: relative; cursor: pointer;"
+          *ngFor="let item of products">
+
+          <div id="img" class="card-img-top text-center">
+            <img src="{{item.images[0] ? item.images[0] : 'assets/Images/NotFound.png'}}" class="img-fluid" alt="..."
+              [routerLink]="['details', item.id]">
+          </div>
+
+          <button (click)="AddToFavorite(item.id)" class="smalled s1 btn btn-dark m-1"
+            style="position: absolute; top:1px; right: 1px; font-size: 10px;"><i class=" bi bi-heart-fill"
+              id="heart"></i></button>
+
+          <button (click)="AddToWithList(item.id)" class="smalled s2 btn btn-dark m-1"
+            style="position: absolute; top:40px; right:1px; font-size: 10px;"><i class=" bi bi-list-ol"
+              id="star"></i></button>
+
+          <div class="card-body" [routerLink]="['details',item.id]"
+            style="cursor: pointer; max-height: 170px; min-height: 170px; overflow: auto;">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <p class="card-text">{{item.price}} LE</p>
+          </div>
+
+          <button (click)="AddToCart(item.id)" [value]="item.id" class="btn btn-dark m-3"><i
+              class="bi bi-cart-fill"></i>
+            Add To Cart</button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Pageination Buttons -->
+    <div class="w-50 m-auto text-center">
+      <button class="ination btn btn-dark" (click)="prev()" style="border-radius: 3px;">Prev</button>
+      <button class="ination btn btn-light"> {{filters.pageIndex}} </button>
+      <button class="ination btn btn-dark" (click)="next()" style="border-radius: 3px;">Next</button>
+    </div>
+
+
+</div>

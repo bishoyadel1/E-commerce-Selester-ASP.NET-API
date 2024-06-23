@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YPKmYbRbvVqzEl3baWz3O/JH11ZkASEt2rNIB75n5v4=",
+  "Source": "CommentClassificationModelMl_API",
+  "BasePath": "_content/CommentClassificationModelMl_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

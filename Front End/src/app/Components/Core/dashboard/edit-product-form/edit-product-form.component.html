@@ -1,0 +1,248 @@
+<div class="fluid-container">
+  <div class="row">
+    <div class="col-3">
+      <app-adminaside></app-adminaside>
+    </div>
+    <div class="col-9">
+      <div class="d-flex justify-content-center align-items-center m-5" style="min-height: 70vh;">
+
+        <form class="shadow p-4" [formGroup]="fg" enctype="multipart/form-data">
+
+          <h1 class="h3 mb-3 fw-normal">Edit Product</h1>
+          <div class="form-floating">
+            <input type="text" class="form-control" id="name" placeholder="name" formControlName="name">
+            <label for="name">Product Name</label>
+            <div class="text-danger form-text" *ngIf="nameTouched &&  nameRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="nameTouched && !nameRequired &&!nameValid">At least 3 char ,
+              Maximum 50 char!</div>
+            <div class="text-success form-text" *ngIf="!nameRequired && nameValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="description" placeholder="description"
+              formControlName="description">
+            <label for="description">Description</label>
+            <div class="text-danger form-text" *ngIf="descriptionTouched &&  descriptionRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="descriptionTouched && !descriptionRequired &&!descriptionValid">At
+              least 10 char , Maximum 100 char!</div>
+            <div class="text-success form-text" *ngIf="!descriptionRequired && descriptionValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="number" class="form-control" id="price" placeholder="price" formControlName="price">
+            <label for="price">Price</label>
+            <div class="text-danger form-text" *ngIf="priceTouched &&  priceRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="priceTouched && !priceRequired &&!priceValid">At least 1000 LE ,
+              Maximum 80000 LE!</div>
+            <div class="text-success form-text" *ngIf="!priceRequired && priceValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="number" class="form-control" id="discount" placeholder="discount" formControlName="discount">
+            <label for="discount">Discount</label>
+            <div class="text-danger form-text" *ngIf="discountTouched &&  discountRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="discountTouched && !discountRequired &&!discountValid">Maximum 70%
+              !</div>
+            <div class="text-success form-text" *ngIf="!discountRequired && discountValid">Looks Good!</div>
+          </div>
+
+
+          <div class="form-floating">
+            <select class="form-select" id="condition" formControlName="condition">
+              <option value="1">New</option>
+              <option value="0">Used</option>
+            </select>
+            <label for="condition">Condition</label>
+            <div class="text-danger form-text" *ngIf="conditionTouched && conditionRequired">Required Field!</div>
+            <div class="text-success form-text" *ngIf="!conditionRequired && conditionValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="number" class="form-control" id="stockQuantity" placeholder="stockQuantity"
+              formControlName="stockQuantity">
+            <label for="stockQuantity">Stock Quantity</label>
+            <div class="text-danger form-text" *ngIf="stockQuantityTouched &&  stockQuantityRequired">Required Field!
+            </div>
+            <div class="text-danger form-text"
+              *ngIf="stockQuantityTouched && !stockQuantityRequired &&!stockQuantityValid">Minimum 0!</div>
+            <div class="text-success form-text" *ngIf="!stockQuantityRequired && stockQuantityValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="model" placeholder="model" formControlName="model">
+            <label for="model">Model</label>
+            <div class="text-danger form-text" *ngIf="modelTouched &&  modelRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="modelTouched && !modelRequired &&!modelValid">At least 3 char ,
+              Maximum 100 char!</div>
+            <div class="text-success form-text" *ngIf="!modelRequired && modelValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="color" placeholder="color" formControlName="color">
+            <label for="color">Color</label>
+            <div class="text-danger form-text" *ngIf="colorTouched &&  colorRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="colorTouched && !colorRequired &&!colorValid">At least 3 char ,
+              Maximum 50 char!</div>
+            <div class="text-success form-text" *ngIf="!colorRequired && colorValid">Looks Good!</div>
+          </div>
+
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailone" placeholder="productDetailone"
+              formControlName="productDetailone">
+            <label for="productDetailone">productDetailone 'GB'</label>
+            <div class="text-danger form-text" *ngIf="productDetailoneTouched &&  productDetailoneRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailoneTouched && !productDetailoneRequired &&!productDetailoneValid">productDetailone
+              Must
+              Be Between 16GB to 1000GB !</div>
+            <div class="text-success form-text" *ngIf="!productDetailoneRequired && productDetailoneValid">Looks Good!
+            </div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailtwo" placeholder="productDetailtwo"
+              formControlName="productDetailtwo">
+            <label for="productDetailtwo">productDetailtwo 'GB'</label>
+            <div class="text-danger form-text" *ngIf="productDetailtwoTouched &&  productDetailtwoRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailtwoTouched && !productDetailtwoRequired &&!productDetailtwoValid">productDetailtwo
+              Must Be Between 16GB
+              to 64GB !</div>
+            <div class="text-success form-text" *ngIf="!productDetailtwoRequired && productDetailtwoValid">Looks Good!
+            </div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailthree" placeholder="productDetailthree"
+              formControlName="productDetailthree">
+            <label for="productDetailthree">productDetailthree</label>
+            <div class="text-danger form-text" *ngIf="productDetailthreeTouched &&  productDetailthreeRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailthreeTouched && !productDetailthreeRequired &&!productDetailthreeValid">At least 4
+              char ,
+              Maximum 100 char!</div>
+            <div class="text-success form-text" *ngIf="!productDetailthreeRequired && productDetailthreeValid">Looks
+              Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailfour" placeholder="productDetailfour"
+              formControlName="productDetailfour">
+            <label for="productDetailfour">productDetailfour</label>
+            <div class="text-danger form-text" *ngIf="productDetailfourTouched &&  productDetailfourRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailfourTouched && !productDetailfourRequired &&!productDetailfourValid">At least 4 char ,
+              Maximum
+              100 char!</div>
+            <div class="text-success form-text" *ngIf="!productDetailfourRequired && productDetailfourValid">Looks Good!
+            </div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailfive" placeholder="productDetailfive"
+              formControlName="productDetailfive">
+            <label for="productDetailfive">Screen Size 'inch'</label>
+            <div class="text-danger form-text" *ngIf="productDetailfiveTouched &&  productDetailfiveRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailfiveTouched && !productDetailfiveRequired &&!productDetailfiveValid">
+              Required Field !</div>
+            <div class="text-success form-text" *ngIf="!productDetailfiveRequired && productDetailfiveValid">Looks Good!
+            </div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailsix" placeholder="productDetailsix"
+              formControlName="productDetailsix">
+            <label for="productDetailsix">Battery Capacity 'mAh'</label>
+            <div class="text-danger form-text" *ngIf="productDetailsixTouched &&  productDetailsixRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailsixTouched && !productDetailsixRequired &&!productDetailsixValid">productDetailtwo
+              Must Be Between
+              ...... !</div>
+            <div class="text-success form-text" *ngIf="!productDetailsixRequired && productDetailsixValid">Looks Good!
+            </div>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="productDetailsiven" placeholder="productDetailsiven"
+              formControlName="productDetailsiven">
+            <label for="productDetailsiven">OS Version</label>
+            <div class="text-danger form-text" *ngIf="productDetailsivenTouched &&  productDetailsivenRequired">Required
+              Field!</div>
+            <div class="text-danger form-text"
+              *ngIf="productDetailsivenTouched && !productDetailsivenRequired &&!productDetailsivenValid">At least
+              4 char , Maximum 50 char!</div>
+            <div class="text-success form-text" *ngIf="!productDetailsivenRequired && productDetailsivenValid">Looks
+              Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <select class="form-select" id="categoryID" formControlName="categoryID">
+              <option value="1">Laptop</option>
+              <option value="2">Mobile</option>
+            </select>
+            <label for="categoryID">Category</label>
+            <div class="text-danger form-text" *ngIf="categoryIDTouched &&  categoryIDRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="categoryIDTouched && !categoryIDRequired &&!categoryIDValid"> !
+            </div>
+            <div class="text-success form-text" *ngIf="!categoryIDRequired && categoryIDValid">Looks Good!</div>
+          </div>
+
+          <div class="form-floating">
+            <select class="form-select" id="brandID" formControlName="brandID">
+              <option value="1">Dell</option>
+              <option value="2">HP</option>
+              <option value="3">Iphone</option>
+            </select>
+            <label for="brandID">Brand</label>
+            <div class="text-danger form-text" *ngIf="brandIDTouched &&  brandIDRequired">Required Field!</div>
+            <div class="text-danger form-text" *ngIf="brandIDTouched && !brandIDRequired &&!brandIDValid"> !</div>
+            <div class="text-success form-text" *ngIf="!brandIDRequired && brandIDValid">Looks Good!</div>
+          </div>
+
+          <div class="row g-2 align-items-center">
+            <div class="col">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="warranties" placeholder="warranties"
+                  formControlName="warranties">
+                <label for="warranties">warranty 'battery-1 year'</label>
+                <div class="text-danger form-text" *ngIf="warrantiesTouched && warrantiesRequired">Required Field!</div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-dark text-white  py-3 mt-3" type="button" (click)="addWarranty()">Edit
+                Warranty</button>
+            </div>
+          </div>
+
+          <div class="row g-2 align-items-center">
+            <div class="col">
+              <div class="form-floating">
+
+                <input type="file" class="form-control" id="images" placeholder="images" formControlName="images"
+                  (change)="AssignImage($event)">
+
+                <label for="images">Product Images</label>
+                <div class="text-danger form-text" *ngIf="imagesTouched && imagesRequired">Required Field!</div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="btn btn-dark text-white  py-3 mt-3" type="button" (click)="addImage()">Edit Images</button>
+            </div>
+          </div>
+
+
+          <button class="btn btn-dark text-white w-100 py-3 mt-4" type="submit" (click)="OnSubmit($event)"><i
+              class="bi bi-check-circle-fill"> Edit</i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

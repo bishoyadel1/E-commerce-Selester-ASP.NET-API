@@ -1,0 +1,36 @@
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\bin\Debug\net7.0\Core.deps.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\bin\Debug\net7.0\Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\bin\Debug\net7.0\Core.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\refint\Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\Core.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\Core\obj\Debug\net7.0\ref\Core.dll
+F:\GP\API\Core\bin\Debug\net7.0\Core.deps.json
+F:\GP\API\Core\bin\Debug\net7.0\Core.dll
+F:\GP\API\Core\bin\Debug\net7.0\Core.pdb
+F:\GP\API\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+F:\GP\API\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\GP\API\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+F:\GP\API\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+F:\GP\API\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+F:\GP\API\Core\obj\Debug\net7.0\Core.dll
+F:\GP\API\Core\obj\Debug\net7.0\refint\Core.dll
+F:\GP\API\Core\obj\Debug\net7.0\Core.pdb
+F:\GP\API\Core\obj\Debug\net7.0\ref\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Debug\net7.0\Core.deps.json
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Debug\net7.0\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Debug\net7.0\Core.pdb
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.csproj.AssemblyReference.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.AssemblyInfoInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.AssemblyInfo.cs
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.csproj.CoreCompileInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\refint\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\Core.pdb
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Debug\net7.0\ref\Core.dll

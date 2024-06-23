@@ -1,0 +1,332 @@
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\appsettings.Development.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\appsettings.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.exe
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.deps.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.runtimeconfig.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\API.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Azure.Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Azure.Identity.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Castle.Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Humanizer.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.CodeDom.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Memory.Data.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Core.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Infrastructure.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Core.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\Infrastructure.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets.build.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\staticwebassets.development.json
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.csproj.CopyComplete
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\refint\API.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.pdb
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\obj\Debug\net7.0\ref\API.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\MailKit.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\MimeKit.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\AutoMapper.dll
+F:\Pola Course\ECommerce-WebStore-main\ECommerce-WebStore-main\API\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\GP\API\API\bin\Debug\net7.0\appsettings.Development.json
+F:\GP\API\API\bin\Debug\net7.0\appsettings.json
+F:\GP\API\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+F:\GP\API\API\bin\Debug\net7.0\API.exe
+F:\GP\API\API\bin\Debug\net7.0\API.deps.json
+F:\GP\API\API\bin\Debug\net7.0\API.runtimeconfig.json
+F:\GP\API\API\bin\Debug\net7.0\API.dll
+F:\GP\API\API\bin\Debug\net7.0\API.pdb
+F:\GP\API\API\bin\Debug\net7.0\AutoMapper.dll
+F:\GP\API\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\GP\API\API\bin\Debug\net7.0\Azure.Core.dll
+F:\GP\API\API\bin\Debug\net7.0\Azure.Identity.dll
+F:\GP\API\API\bin\Debug\net7.0\Castle.Core.dll
+F:\GP\API\API\bin\Debug\net7.0\Humanizer.dll
+F:\GP\API\API\bin\Debug\net7.0\MailKit.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\GP\API\API\bin\Debug\net7.0\MimeKit.dll
+F:\GP\API\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\GP\API\API\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\GP\API\API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\GP\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\GP\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\GP\API\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\GP\API\API\bin\Debug\net7.0\System.CodeDom.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\GP\API\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Memory.Data.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\GP\API\API\bin\Debug\net7.0\Core.dll
+F:\GP\API\API\bin\Debug\net7.0\Infrastructure.dll
+F:\GP\API\API\bin\Debug\net7.0\Core.pdb
+F:\GP\API\API\bin\Debug\net7.0\Infrastructure.pdb
+F:\GP\API\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+F:\GP\API\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+F:\GP\API\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+F:\GP\API\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+F:\GP\API\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+F:\GP\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+F:\GP\API\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets.pack.json
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets.build.json
+F:\GP\API\API\obj\Debug\net7.0\staticwebassets.development.json
+F:\GP\API\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+F:\GP\API\API\obj\Debug\net7.0\API.csproj.CopyComplete
+F:\GP\API\API\obj\Debug\net7.0\API.dll
+F:\GP\API\API\obj\Debug\net7.0\refint\API.dll
+F:\GP\API\API\obj\Debug\net7.0\API.pdb
+F:\GP\API\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+F:\GP\API\API\obj\Debug\net7.0\ref\API.dll
+F:\GP\API\API\bin\Debug\net7.0\CommentClassificationModelMl.mlnet
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.Core.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.Data.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.KMeansClustering.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.PCA.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.StandardTrainers.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.Transforms.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.CpuMath.dll
+F:\GP\API\API\bin\Debug\net7.0\Microsoft.ML.DataView.dll
+F:\GP\API\API\bin\Debug\net7.0\System.Numerics.Tensors.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\linux-arm\native\libLdaNative.so
+F:\GP\API\API\bin\Debug\net7.0\runtimes\linux-arm64\native\libLdaNative.so
+F:\GP\API\API\bin\Debug\net7.0\runtimes\linux-x64\native\libLdaNative.so
+F:\GP\API\API\bin\Debug\net7.0\runtimes\osx-arm64\native\libLdaNative.dylib
+F:\GP\API\API\bin\Debug\net7.0\runtimes\osx-x64\native\libLdaNative.dylib
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-arm64\native\LdaNative.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-x64\native\LdaNative.dll
+F:\GP\API\API\bin\Debug\net7.0\runtimes\win-x86\native\LdaNative.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\appsettings.Development.json
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\CommentClassificationModelMl.mlnet
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\appsettings.json
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.exe
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.deps.json
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.runtimeconfig.json
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\API.pdb
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\AutoMapper.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Azure.Core.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Azure.Identity.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Castle.Core.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Humanizer.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\MailKit.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.Core.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.Data.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.KMeansClustering.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.PCA.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.StandardTrainers.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.Transforms.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.CpuMath.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.ML.DataView.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\MimeKit.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Newtonsoft.Json.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.CodeDom.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Memory.Data.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Net.WebSockets.WebSocketProtocol.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Numerics.Tensors.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\linux-arm\native\libLdaNative.so
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\linux-arm64\native\libLdaNative.so
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\linux-x64\native\libLdaNative.so
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\osx-arm64\native\libLdaNative.dylib
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\osx-x64\native\libLdaNative.dylib
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-arm64\native\LdaNative.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-x64\native\LdaNative.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win-x86\native\LdaNative.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Infrastructure.dll
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Core.pdb
+F:\GP\GP\Back End And Machine Learning Model\API\bin\Debug\net7.0\Infrastructure.pdb
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cs
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets.pack.json
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets.build.json
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\staticwebassets.development.json
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.csproj.CopyComplete
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.dll
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\refint\API.dll
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.pdb
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+F:\GP\GP\Back End And Machine Learning Model\API\obj\Debug\net7.0\ref\API.dll

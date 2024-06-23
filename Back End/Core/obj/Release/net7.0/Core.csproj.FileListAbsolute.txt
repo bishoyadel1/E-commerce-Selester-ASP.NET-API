@@ -1,0 +1,12 @@
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Release\net7.0\Core.deps.json
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Release\net7.0\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\bin\Release\net7.0\Core.pdb
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.csproj.AssemblyReference.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.AssemblyInfoInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.AssemblyInfo.cs
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.csproj.CoreCompileInputs.cache
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\refint\Core.dll
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\Core.pdb
+F:\GP\GP\Back End And Machine Learning Model\Core\obj\Release\net7.0\ref\Core.dll
